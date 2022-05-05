@@ -1,0 +1,57 @@
+body
+{
+background-color:#f978a3;
+}
+
+
+h1
+{
+  
+  color:orangered;
+  background-color:wheat;
+} 
+
+#show_sketch
+{
+  float:right;
+}
+
+#timer
+{
+  float:right;
+  margin-right: 40px;
+}
+
+#score
+{
+  margin-left: 40px;
+}
+ 
+
+
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px; 
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example {
+
+    from {box-shadow: 1px 1px 38px rgb(121, 36, 36);}
+    to {box-shadow: 1px 1px 38px white;}
+  
+  }
+  
+  
+  p
+    {
+      padding-top:10px;
+      font-size:25px;
+      
+    }
+  
